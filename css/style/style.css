@@ -166,7 +166,7 @@ h4 {
     width: auto;
     left: -18px;
     right: -18px;
-    background-image: url(../../img/img-me-1.jpg);
+    background-image: url(../../img/me-2.jpg);
     background-position: calc(50% + 1.24807px) calc(50% + 7.8069px);
     transition: all 0.5s;
 }
@@ -294,14 +294,6 @@ h4 {
     line-height: 1.1em;
     margin: 0 0 4px;
 }
-
-.skills-first-style .skill-value {
-    font-size: 11px;
-    line-height: 1.1em;
-    margin: 0 0 4px;
-    color: #888;
-}
-
 .skills-first-style .skill-container {
     position: relative;
     background-color: transparent;
@@ -321,12 +313,13 @@ h4 {
     padding: 0;
 }
 
+#skill_5 .skill-percentage,
 #skill_1 .skill-percentage {
-    width: 100%;
+    width: 75%;
 }
 
 #skill_2 .skill-percentage {
-    width: 80%;
+    width: 68%;
 }
 
 #skill_3 .skill-percentage {
@@ -334,12 +327,12 @@ h4 {
 }
 
 #skill_10 .skill-percentage,
-#skill_9 .skill-percentage,
 #skill_7 .skill-percentage,
 #skill_4 .skill-percentage {
-    width: 75%;
+    width: 62%;
 }
 
+#skill_9 .skill-percentage,
 #skill_8 .skill-percentage,
 #skill_6 .skill-percentage {
     width: 50%;
